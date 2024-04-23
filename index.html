@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/articulos.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/alura.png">
+        <h1>AluraGeek</h1>
+    </header>
+    <main>
+        <!-- Lista de Productos -->
+        <section class="lista_articulos">
+            <h2>Mis Articulos</h2>
+            <ul class="articulos_container" data-lista>
+                <!-- <li class="articulo">
+                    <img src="./images/storm.jpg" alt="">
+                    <h4>Stormtrooper</h4>
+                    <div class="footer_card">
+                        <p>$60</p>
+                        <button>Eliminar</button>
+                    </div>
+                </li>
+                -->
+            </ul>
+        </section>
+        <!-- Formulario -->
+        <section class="formulario">
+            <h2>Agregar Articulo</h2>
+            <form data-formulario>
+                <!-- <label for="nombre">Nombre</label> -->
+                <input type="text" name="nombre" id="nombre" placeholder="nombre" data-nombre>
+
+                <!-- <label for="precio">Precio</label> -->
+                <input type="text" name="precio" id="precio" placeholder="precio" data-precio>
+
+                <!-- <label for="imagen">Imagen</label> -->
+                <input type="text" name="imagen" id="imagen" placeholder="imagen" data-imagen>
+                <div class="botones">
+                    <button class="boton_formulario" type="submit">Agregar Articulo</button>
+                    <button class="boton_formulario" data-vaciar>Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_top">
+            <img src="images/alura.png">
+            <h1>AluraGeek</h1>
+        </div>
+        <h5>Desarrollado por Garay Nicolas</h5>
+        <h6>Alura Latam 2024</h6>
+    </footer>
+    <script src="./js/mostrarLista.js" type="module"></script>
+</body>
+
+</html>

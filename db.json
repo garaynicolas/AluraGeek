@@ -1,0 +1,35 @@
+{
+  "__single": true,
+  "articulos": [
+    {
+      "id": "1",
+      "nombre": "Stormtrooper",
+      "precio": 60,
+      "imagen": "../images/storm.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Gameboy",
+      "precio": 60,
+      "imagen": "../images/gameboy.png"
+    },
+    {
+      "id": "3",
+      "nombre": "Family Game",
+      "precio": 100,
+      "imagen": "../images/familygame.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Figura Goku",
+      "precio": 40,
+      "imagen": "../images/goku.jpg"
+    },
+    {
+      "id": "65c5",
+      "nombre": "Nintendo",
+      "precio": "75",
+      "imagen": "../images/supernin.jpg"
+    }
+  ]
+}
