@@ -36,6 +36,12 @@
       "nombre": "Figura Goku",
       "precio": 40,
       "imagen": "../images/goku.jpg"
+    },
+    {
+      "id": "8",
+      "nombre": "Stormtrooper",
+      "precio": 60,
+      "imagen": "../images/storm.jpg"
     }
   ]
 }
