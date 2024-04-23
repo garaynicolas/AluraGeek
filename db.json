@@ -30,6 +30,12 @@
       "nombre": "Nintendo",
       "precio": "75",
       "imagen": "../images/supernin.jpg"
+    },
+    {
+      "id": "53",
+      "nombre": "Figura Goku",
+      "precio": 40,
+      "imagen": "../images/goku.jpg"
     }
   ]
 }
