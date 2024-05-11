@@ -1,11 +1,11 @@
 async function listarArticulos() {
-  const conexion = await fetch("http://localhost:3001/articulos");
+  const conexion = await fetch("http://localhost:3000/articulos");
   const conexionConvertida = await conexion.json();
   return conexionConvertida;
 }
 
 async function enviarArticulo(nombre,precio,imagen) {
-    const conexion = await fetch("http://localhost:3001/articulos", {
+    const conexion = await fetch("http://localhost:3000/articulos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -25,7 +25,7 @@ async function enviarArticulo(nombre,precio,imagen) {
 
 async function eliminarArticulo(id) {
     try {
-      const response = await fetch(`http://localhost:3001/articulos/${id}`, {
+      const response = await fetch(`http://localhost:3000/articulos/${id}`, {
         method: "DELETE"
       });
       console.log(response);
